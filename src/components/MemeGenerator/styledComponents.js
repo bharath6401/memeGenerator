@@ -9,6 +9,14 @@ export const ContainerRow = styled.div`
   align-items: center;
   justify-content: center;
   padding: 20px;
+
+  @media screen and (max-width: 570px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
 `
 
 export const ContainerColumn = styled.div`
